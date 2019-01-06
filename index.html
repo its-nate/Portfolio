@@ -7,6 +7,9 @@
     <title>Nate Micinski | About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani|Raleway:200,400" rel="stylesheet">
+
     <!-- CSS Reset -->
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" /> -->
 
@@ -17,14 +20,18 @@
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+
 
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 body-theme">
     <header>
         <!-- Fixed navbar -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-            <h2 class="navbar-brand">Nate Micinski</h2>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top nav-theme">
+            <h2>Nate Micinski</h2>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,13 +39,13 @@
             <div class="collapse navbar-collapse d-flex" id="navbarCollapse">
                 <ul class="navbar-nav mr-auto w-100 justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">About</a>
+                        <a class="nav-link active-nav" href="index.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-link nav-items" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link nav-items" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,16 +55,34 @@
     <!-- Begin page content -->
     <main role="main" class="flex-shrink-0">
         <div class="container">
-            <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-            <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and
-                CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>main &gt; .container</code>.</p>
-            <p>Back to <a href="/docs/4.2/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+            <h1 class="mt-5">About me</h1>
+            <hr>
+            <p class="lead">My name is Nate and I do one type of development (raising money). I also do the other type of development (making
+            computer things).
+            <br>
+            <br>
+            I believe that clear and open communication is best. Whether I am working with colleagues or clients I prioritize being
+            clear and concise—when we’re all in agreement, everyone wins.
+            <br>
+            <br>
+            The things I build focus on their essence. Whether a website, application, or program I believe it works best when it
+            does what it’s supposed to in a simple, uncluttered way.</p>
         </div>
     </main>
 
-    <footer class="footer mt-auto py-3">
+    <!-- Footer -->
+    <footer class="footer mt-auto py-3 footer-theme">
         <div class="container text-center">
-            <span class="text-muted">Copyright &copy;</span>
+   
+            <div class="row">
+                <div class="col">
+                    <a href="mailto:nmicinski@gmail.com"><i class="far fa-envelope icons" aria-hidden="true"></i><span class="sr-only">email</span></a>
+                    <a href="https://www.linkedin.com/in/nate-micinski-565666112/" target="_blank"><i class="fab fa-linkedin-in icons" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+                    <a href="https://github.com/DearLorditsNate" target="_blank"><i class="fab fa-github icons"></i><span class="sr-only">LinkedInGithub</span></a>
+                </div>
+            </div>
+
+            <span class="text-muted">&copy; 2019 Nate Micinski</span>
         </div>
     </footer>
 

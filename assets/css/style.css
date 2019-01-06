@@ -1,19 +1,23 @@
+/* Color Palette
+#F5F9F2 - White Smoke
+#D5DFE5 - Gainsboro
+#757780 - Sonic Silver
+#000000 - Black
+#208AAE - Cyan Cornflower Blue
+*/
+
 /* 
 ===================================
 Universal Styles
 ===================================
 */
 
-/* * {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
+/* 
+===================================
+Sticky Footer
+===================================
+*/
 
-html,
-body {
-    height: 100%;
-} */
 main > .container {
   padding: 60px 15px 0;
 }
@@ -32,12 +36,61 @@ code {
 }
 
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
+  font-size: 1.125rem;
+  text-anchor: middle;
 }
 
 @media (min-width: 768px) {
-.bd-placeholder-img-lg {
+  .bd-placeholder-img-lg {
     font-size: 3.5rem;
+  }
 }
+
+/* 
+===================================
+Fonts
+===================================
+*/
+
+body {
+  font-family: Raleway, Arial, sans-serif;
+  text-transform: lowercase;
+}
+
+h2 {
+  color: #F5F9F2;
+  padding: 5px;
+  font-size: 175%;
+  margin: auto;
+}
+
+.nav-items {
+  color: #F5F9F2 !important;
+}
+
+.active-nav {
+  color: #000 !important;
+}
+
+.icons {
+  color: #208AAE;
+  padding: 10px;
+}
+
+/* 
+===================================
+Backgrounds
+===================================
+*/
+
+.body-theme {
+  background-color: #F5F9F2;
+}
+
+.nav-theme {
+  background-color: #208AAE;
+}
+
+.footer-theme {
+  background-color: #F5F9F2;
 }
