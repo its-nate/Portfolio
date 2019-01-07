@@ -71,6 +71,10 @@ h2 a {
   padding: 5px;
 }
 
+h2 a:visited {
+  color: #F5F9F2;
+}
+
 h2 a:hover {
   color: #F5F9F2;
 }
