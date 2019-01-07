@@ -1,3 +1,3 @@
 # Portfolio
 
-dearlorditsnate.github.io/Portfolio
+https://dearlorditsnate.github.io/Portfolio/
