@@ -62,10 +62,17 @@ h1 {
 }
 
 h2 {
-  color: #F5F9F2;
-  padding: 5px;
   font-size: 225%;
   margin: auto;
+}
+
+h2 a {
+  color: #F5F9F2;
+  padding: 5px;
+}
+
+h2 a:hover {
+  color: #F5F9F2;
 }
 
 .nav-items,
