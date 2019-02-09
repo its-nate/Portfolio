@@ -57,10 +57,6 @@ body {
   text-transform: lowercase;
 }
 
-h1 {
-  /* font-size: 200%; */
-}
-
 h2 {
   font-size: 225%;
   margin: auto;
