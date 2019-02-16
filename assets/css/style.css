@@ -100,11 +100,19 @@ h2 a:hover {
 
 .body-text {
   color: #208AAE;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 a:hover {
   text-decoration: none !important;
+}
+
+.links {
+  color: black;
+}
+
+.links:hover {
+  color: #208AAE;
 }
 
 .body-icons {
