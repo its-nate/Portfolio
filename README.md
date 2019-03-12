@@ -1,3 +1,3 @@
 # Portfolio
 
-www.natemicinski.com
+https://dearlorditsnate.github.io/Portfolio/
